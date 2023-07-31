@@ -1,4 +1,4 @@
-# deployed on https://64c7ee80073d992b1cec7f0f--cheery-wisp-23d421.netlify.app/
+deployed on https://64c7ee80073d992b1cec7f0f--cheery-wisp-23d421.netlify.app/
 
 # Getting Started with Create React App
 
