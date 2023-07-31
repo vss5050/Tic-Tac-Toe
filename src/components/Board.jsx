@@ -52,15 +52,8 @@ const Board = () => {
                     <div className="header">
                         <h1> {iswinner} WON!!</h1>
                     </div>
-
-                    <div className="play-again">
-                        <button className="play-again-btn" onClick={() => {
-                            setState(Array(9).fill(null));
-
-                        }}>Play Again</button>
-                    </div>
-
                 </div> :
+                
                 <>
                 <h1 style={{padding:30}}>Player {is0?'0':'X'} Move</h1>
                 <div className="board-container">
@@ -82,6 +75,12 @@ const Board = () => {
                 </div>
                 </>
             }
+            <div className="play-again">
+                        <button className="play-again-btn" onClick={() => {
+                            setState(Array(9).fill(null));
+
+                        }}>Play Again</button>
+                    </div>
         </>
 
     );
